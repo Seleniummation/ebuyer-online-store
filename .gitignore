@@ -1,0 +1,17 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+Files Excluded
+*.xml
+*.iml
+*.phantomjsdriver.log
+
+
+Files Included
+!pom.xml
+!sjawebsite.iml
+
+Folders Excluded
+.idea/*
+target/*
+!/.git/info/exclude
+!/.gitignore
