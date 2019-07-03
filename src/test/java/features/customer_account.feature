@@ -3,6 +3,7 @@ Feature: Customer Account
   Background:
     Given Customers are on "ebuyer" home page
 
+  @Regression
   Scenario Outline: Log in with valid credentials
     And Customer clicks "sign in" link
     And Customer enters "<email address>" and "<password>"
